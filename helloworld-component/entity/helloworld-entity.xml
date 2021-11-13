@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <entities xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="http://moqui.org/xsd/entity-definition-2.1.xsd">
-    <entity entity-name="Tutorial" package="tutorial">
-        <field name="id" type="id" is-pk="true"/>
-        <field name="name" type="text-medium"/>
-        <field name="date" type="date"/>
-        <field name="price" type="number-decimal"/>
-        <field name="quantity" type="number-integer"/>
+          xsi:noNamespaceSchemaLocation="http://moqui.org/xsd/entity-definition-2.1.xsd">
+    <entity entity-name="Example" package="moqui.example">
+        <field name="exampleId" type="id" is-pk="true"/>
+        <field name="exampleName" type="text-medium"/>
+        <field name="exampleDate" type="date"/>
+        <field name="examplePrice" type="number-decimal"/>
+        <field name="exampleQuantity" type="number-integer"/>
     </entity>
 </entities>
